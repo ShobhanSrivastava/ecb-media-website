@@ -1,0 +1,49 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+}
+
+.contentWrapper{
+  grid-column: 2 / -2;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.logoText{
+  font-family: 'Dela Gothic One', cursive;
+}
+
+.button{
+  margin: 0 auto;
+}
+
+.sectionHeading{
+  font-size: 2.25vw;
+  font-weight: 900;
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 0.1vw;
+}
+
+.sectionDetails{
+  font-size: 1.5vw;
+  font-weight: 100;
+  font-family: 'Cabin', sans-serif;
+}

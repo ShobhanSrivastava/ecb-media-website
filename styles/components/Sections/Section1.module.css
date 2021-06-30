@@ -1,0 +1,63 @@
+.section1{
+    height: 85vh;
+    /* border: 2px solid red; */
+}
+
+.contentWrapper{
+    grid-column: 2 / -2;
+    /* border: 2px solid red; */
+}
+
+.sectionTextWrapper{
+    grid-column: 1 / 7;
+    height: auto;
+    color: white;
+    /* border: 2px solid red; */
+    margin: auto 0;
+}
+
+.sectionText{
+    font-size: 2.5vw;
+    font-weight: 900;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.1vw;
+}
+
+.textHeading{
+    font-size: 2.25vw;
+    font-weight: 900;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.1vw;
+}
+
+.textHeadingLine2{
+    font-size: 2.25vw;
+    font-weight: 900;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.1vw;
+    color: #f13ea7;
+}
+
+.sectionDetails{
+    font-size: 1.5vw;
+    font-weight: 100;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.05vw;
+}
+
+.text{
+    font-size: 2.20vw;
+}
+
+.sectionImageWrapper{
+    grid-column: 7 / -1;
+    height: 100%;
+    font-weight: 500;
+    /* border: 2px solid red; */
+}
+
+.buttonWrapper{
+    /* border: 2px solid red; */
+    margin: auto 0;
+    margin-top: 3vw;
+}

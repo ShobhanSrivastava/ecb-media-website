@@ -1,0 +1,37 @@
+.button > h3, .button > p{
+    padding: 0.2vw;
+    margin: 0;
+}
+
+.button h3{
+    font-weight: 500;
+}
+
+.button p{
+    font-weight: 100;
+    font-size: 1vw;
+}
+
+.button{
+    width: 80%;
+    height: 5vw;
+    border-radius: 25vw;
+    border: none;
+    margin: 1vw 0;
+    font-size: 1.4vw;
+    text-align: center;
+    background: #f13ea7;
+    color: white;
+    box-shadow: 0 0 0 #f13ea7;
+    font-family: 'Cabin', sans-serif;
+    transition: all 0.25s ease;
+}
+
+
+.button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 2vw #f13ea7;
+    height: 5.5vw;
+    width: 85%;
+    font-size: 1.6vw;
+}

@@ -1,0 +1,63 @@
+.section3{
+    height: 90vh;
+}
+
+.contentWrapper{
+    grid-column: 2 / -2;
+}
+
+.leftSide{
+    grid-column: 1 / 7;
+    /* border: 2px solid red; */
+    color: white;
+    height: auto;
+    margin: auto 0;
+}
+
+.rightSide{
+    grid-column: 7 / -1;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vw;
+    margin: auto 0;
+}
+
+.sectionText{
+    height: auto;
+    /* border: 2px solid red; */
+    grid-column: 7 / -1;
+    color: white;
+    margin: auto 0;
+    text-align: start;
+}
+
+.sectionHeading{
+    font-size: 2.5vw;
+    font-weight: 900;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.1vw;
+}
+
+.sectionDetails{
+    font-size: 2.25vw;
+    color: #f13ea7;
+}
+
+.terms{
+    font-size: 1vw;
+    color: white;
+}
+
+.sectionDetailText{
+    font-size: 1.5vw;
+    font-weight: 100;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.05vw;
+}
+
+.zero{
+    color: #fbdb5c;
+    font-weight: 900;
+}

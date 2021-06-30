@@ -1,0 +1,55 @@
+.section2{
+    height: 80vh;
+}
+
+.contentWrapper{
+    grid-column: 2 / -2;
+    /* border: 2px solid red; */
+}
+
+.sectionImage{
+    height: 100%;
+    /* border: 2px solid red; */
+    grid-column: 1 / 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionText{
+    height: auto;
+    /* border: 2px solid red; */
+    grid-column: 7 / -1;
+    color: white;
+    margin: auto 0;
+    text-align: start;
+}
+
+.sectionHeading{
+    font-size: 2.5vw;
+    font-weight: 900;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.1vw;
+}
+
+.sectionDetails{
+    font-size: 2.25vw;
+    color: #fbdb5c;
+}
+
+.terms{
+    font-size: 1vw;
+    color: white;
+}
+
+.sectionDetailText{
+    font-size: 1.5vw;
+    font-weight: 100;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.05vw;
+}
+
+.zero{
+    color: #fbdb5c;
+    font-weight: 900;
+}
