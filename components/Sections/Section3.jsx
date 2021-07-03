@@ -1,24 +1,30 @@
 import styles from '../../styles/components/Sections/Section3.module.css'
 
-import Image from '../Image';
 import Button from '../Button';
+import Cross from '../Icons/Cross'
 
 export default function Section3(){
 
     return (
-        <section className={`${styles.section3} grid`}>
-            <div className={`${styles.contentWrapper} grid`}>
-                <div className={styles.leftSide}>
-                    <h1 className={`${styles.sectionHeading} sectionHeading`}>WHAT WE OFFER</h1>
-                    <p className={`${styles.sectionDetails} ${styles.sectionHeading}`}>Paid Advertising</p>
-                    <p className={styles.sectionDetailText}>Just Ads? Yeah, you read that correct !<br /><br />
+        <section className={`section grid`}>
+            <div className={`content-wrapper grid`}>
+                <div className={`section-left`}>
+                    <h1 className={`text-heading`}>WHAT WE OFFER</h1>
+                    <p className={`text-heading ${styles.sectionDetails}`}>Paid Advertising</p>
+                    <p className={`section-details`}>Just Ads? Yeah, you read that correct !<br /><br />
                     Being the Jack of all trades definitely distracts from focussing on advertising and doing it efficiently.<br /><br />
                     So we decided to be the Master of One!<br /><br />
                     Do you want to track your expenses and profits at all times? You are at the right place! Hit that button right now 👇</p>
                     <Button />
                 </div>
-                <div className={styles.rightSide}>
-                    <Image src="/Adspng.png" />
+                <div className={`section-right flex-column flex-centered`}>
+                    <ul className={`section-details`} style={{listStyle : "none"}}>
+                        <li><span style={{color : "red"}} className="material-icons-outlined">clear</span>Web Design</li>
+                        <li><Cross />SEO</li>
+                        <li><Cross />Social Media Handling</li>
+                        <li><Cross />Content Creation</li>
+                        <li><Cross />Email Marketing</li>
+                    </ul>
                 </div>
             </div>
         </section>

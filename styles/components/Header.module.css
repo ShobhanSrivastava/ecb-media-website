@@ -1,15 +1,13 @@
 .header{
-    height: 7.5vw;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    padding: 10vh 0;
     /* border: 1px solid black; */
 }
 
 .logoText{
     color: white;
-    grid-column-start: 2;
-    grid-column: 2 / 4;
+    grid-column: 1 / -1;
     margin: auto 0;
-    font-style: 'Dela Gothic One', cursive;
-    font-size: 2vw;
+    font-family: 'Dela Gothic One', cursive;
 }

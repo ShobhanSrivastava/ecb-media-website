@@ -9,20 +9,18 @@ export default function Section1() {
         <section className={`section grid`}>
             <div className={`content-wrapper grid`}>
                 <Header />
-                <div className={`section-left`}>
-                    <span className={styles.textHeading}>THE ZERO LOSS AGENCY</span><br /><br />
-                    <span className={`${styles.textHeading} ${styles.textHeadingLine2}`}>We help <span style={{textTransform : "uppercase"}}>healthcare & wellness</span> businesses </span>
-                    <span className={`${styles.textHeading} ${styles.textHeadingLine2}`}>ferociously scale to multiple 6-7 figures through scientific Advertising.</span>
+                <div className={`section-left flex-centered`}>
+                    <div className={`text-heading`}>THE ZERO LOSS AGENCY</div><br /><br />
+                    <div className={`text-heading ${styles.textHeadingLine2}`}>We help <span style={{textTransform : "uppercase", color : "white"}}>healthcare & wellness</span> businesses </div>
+                    <div className={`text-heading ${styles.textHeadingLine2}`}>ferociously scale to multiple 6-7 figures through scientific Advertising.</div>
                     <br />
-                    <br />
-                    <div className={styles.sectionDetails}>Stop wasting time and money on faulty and ineffective ad campaigns.<br /><br />It’s time to make your ad-budget count,<br /> scale your business and blow
+                    <div className={`section-details`}>Stop wasting time and money on faulty and ineffective ad campaigns.<br /><br />It’s time to make your ad-budget count,<br /> scale your business and blow
                     up your sales.
                     </div>
-                    <div className={styles.buttonWrapper}>
-                        <Button className={styles.button}/>
-                    </div>
+                    <br />
+                    <Button />
                 </div>
-                <div className={styles.sectionImageWrapper}>
+                <div className={`section-right flex-centered ${styles.imageWrapper}`}>
                     <PeopleWorking size="100%"/>
                 </div>
             </div>

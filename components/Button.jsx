@@ -5,7 +5,7 @@ import styles from '../styles/components/Button.module.css'
 function Button(props) {
     return (
         <a href="#section4">
-            <button className={styles.button}>
+            <button className={`${styles.button} btn`}>
                 <h3>Speak to our team today</h3>
                 <p>Schedule a FREE audit call now!</p>
             </button>

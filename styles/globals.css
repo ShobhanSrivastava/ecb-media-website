@@ -7,6 +7,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #7f5a83;
   background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  scroll-behavior: smooth;
 }
 
 * {
@@ -29,7 +30,8 @@ a {
 }
 
 .section{
-  margin-bottom: 7.5vh;
+  margin-bottom: 10vh;
+  align-items: center;
 }
 
 .section-details{
@@ -37,6 +39,10 @@ a {
   font-weight: 100;
   font-family: 'Cabin', sans-serif;
   letter-spacing: 0.05vw;
+}
+
+.header{
+  grid-column: 1 / -1;
 }
 
 .flex-column{
@@ -55,7 +61,7 @@ a {
 }
 
 .vertically-centered{
-  margin: 0 auto;
+  margin: auto 0;
 }
 
 .horizontally-centered{
@@ -89,7 +95,6 @@ a {
 .terms{
   color: white;
 }
-
 /* <--Utility CSS End--> */
 
 /* <--Media Queries--> */
@@ -98,15 +103,15 @@ a {
 
   .section{
     height: auto;
-    /* margin-bottom: 7.5vh; */
   }
 
-  .header{
+  header{
     text-align: center;
+    height: auto;
   }
 
   .grid{
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(10, 1fr);
   }
 
   .logo-text{
@@ -121,12 +126,8 @@ a {
 
   .section-right{
     grid-column: 1 / -1;
-    height: 100vh;
+    height: auto;
     /* border: 1px solid red; */
-  }
-
-  .section-text-wrapper{
-    margin: auto 0;
   }
 
   .image{
@@ -162,12 +163,20 @@ a {
     height: 90vh;
     width: 100%;
   }
+
+  .footer-text{
+    font-size: 2vw;
+  }
+
+  .button-wrapper-section-5{
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 800px){
 
   .section{
-    height: 100vh;
+    height: auto;
   }
 
   .section-left{ 
@@ -198,11 +207,15 @@ a {
 
   .btn{
     padding: 1vw;
-    width: 80%;
+    width: 100%;
+  }
+
+  .btn h3{
+    font-size: calc(1.75vw + 5px);
   }
 
   .btn p{
-    font-size: 1vw;
+    font-size: calc(0.75vw + 5px);
   }
 
   .terms{
@@ -210,8 +223,16 @@ a {
   }
 
   .calendly-wrapper{
-    height: 100%;
+    height: 90%;
     width: 90%;
+  }
+
+  .button-wrapper-section-5{
+    width: 60%;
+  }
+
+  .footer-text{
+    font-size: 1vw;
   }
 }
 
