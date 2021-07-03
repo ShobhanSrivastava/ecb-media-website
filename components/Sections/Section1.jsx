@@ -1,13 +1,15 @@
 import styles from '../../styles/components/Sections/Section1.module.css'
 
+import Header from '../Header'
 import PeopleWorking from '../../assets/SVG/PeopleWorking';
 import Button from '../Button'
 
 export default function Section1() {
     return(
-        <section className={`${styles.section1} grid`}>
-            <div className={`${styles.contentWrapper} grid`}>
-                <div className={styles.sectionTextWrapper}>
+        <section className={`section grid`}>
+            <div className={`content-wrapper grid`}>
+                <Header />
+                <div className={`section-left`}>
                     <span className={styles.textHeading}>THE ZERO LOSS AGENCY</span><br /><br />
                     <span className={`${styles.textHeading} ${styles.textHeadingLine2}`}>We help <span style={{textTransform : "uppercase"}}>healthcare & wellness</span> businesses </span>
                     <span className={`${styles.textHeading} ${styles.textHeadingLine2}`}>ferociously scale to multiple 6-7 figures through scientific Advertising.</span>

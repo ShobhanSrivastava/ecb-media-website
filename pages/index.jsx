@@ -1,6 +1,5 @@
 import Head from 'next/head';
 
-import Header from '../components/Header';
 import Section1 from '../components/Sections/Section1';
 import Section2 from '../components/Sections/Section2';
 import Section3 from '../components/Sections/Section3';
@@ -13,11 +12,11 @@ export default function Home() {
     <div className={`pageWrapper`}>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&display=swap" rel="stylesheet" /> 
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
       </Head>
-      <Header />
       <Section1 />
       {/* <hr /> */}
       <Section2 />

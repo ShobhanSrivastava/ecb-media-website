@@ -1,21 +1,17 @@
-.section4{
-    height: 90vh;
-}
-
 .contentWrapper{
     grid-column: 2 / -2;
     height: 100%;
 }
 
-.leftSide{
-    grid-column: 1 / 7;
+.sectionLeft{
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .calendlyWrapper{
-    height: 85%;
+    height: 95%;
     width: 90%;
 }
 
@@ -27,18 +23,7 @@
     padding-left: 2vw;
 }
 
-.subHeading{
-    font-size: 1.5vw;
-    font-weight: 700;
-    font-family: 'Cabin', sans-serif;
-    letter-spacing: 0.025vw;
-}
-
 .heading{
-    font-size: 2.5vw;
-    font-weight: 900;
-    font-family: 'Cabin', sans-serif;
-    letter-spacing: 0.05vw;
     color: #f13ea7;
 }
 
@@ -52,16 +37,10 @@
 
 .sectionUL li{
     margin: 1vw;
-    font-size: 1.25vw;
-    letter-spacing: 0.075vw;
-    font-weight: 200;
     padding: 0;
 }
 
 .highlight{
-    color: #f13ea7;
-    font-size: 1.4vw;
-    letter-spacing: 0.03vw;
     color: #fbd01c;;
 }
 

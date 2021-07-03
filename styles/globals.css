@@ -2,14 +2,15 @@ html,
 body {
   padding: 0;
   margin: 0;
+  color: white;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #7f5a83;
   background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
 }
 
-.contentWrapper{
-  grid-column: 2 / -2;
+* {
+  box-sizing: border-box;
 }
 
 a {
@@ -17,33 +18,201 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
+/* <--Utility CSS--> */
 
 .grid{
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: minmax(100px, auto);
 }
 
-.logoText{
-  font-family: 'Dela Gothic One', cursive;
+.content-wrapper{
+    grid-column: 2 / -2;
 }
 
-.button{
+.section{
+  margin-bottom: 7.5vh;
+}
+
+.section-details{
+  font-size: 1.5vw;
+  font-weight: 100;
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 0.05vw;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-row{
+  display: flex;
+}
+
+.flex-centered{
+  justify-content: center;
+  align-items: center;
+}
+
+.vertically-centered{
   margin: 0 auto;
 }
 
-.sectionHeading{
-  font-size: 2.25vw;
+.horizontally-centered{
+  margin: 0 auto;
+}
+
+.logo-text{
+  font-family: 'Dela Gothic One', cursive;
+}
+
+.section-heading{
+  font-size: calc(2vw + 15px);
   font-weight: 900;
   font-family: 'Cabin', sans-serif;
   letter-spacing: 0.1vw;
 }
 
-.sectionDetails{
-  font-size: 1.5vw;
+.text-heading{
+  font-size: calc(1.75vw + 5px);
+  font-weight: 900;
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 0.1vw;
+}
+
+.section-details{
   font-weight: 100;
   font-family: 'Cabin', sans-serif;
+  margin: 1vw 0;
 }
+
+.terms{
+  color: white;
+}
+
+/* <--Utility CSS End--> */
+
+/* <--Media Queries--> */
+
+@media only screen and (max-width: 800px){
+
+  .section{
+    height: auto;
+    /* margin-bottom: 7.5vh; */
+  }
+
+  .header{
+    text-align: center;
+  }
+
+  .grid{
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  .logo-text{
+    font-size: calc(6vw + 5px);
+  }
+
+  .section-left{ 
+    grid-column: 1 / -1;
+    height: auto;
+    /* border: 1px solid red; */
+  }
+
+  .section-right{
+    grid-column: 1 / -1;
+    height: 100vh;
+    /* border: 1px solid red; */
+  }
+
+  .section-text-wrapper{
+    margin: auto 0;
+  }
+
+  .image{
+    height: auto!important;
+  }
+
+  .text-heading{
+    font-size: calc(2.5vw + 10px);
+  }
+
+  .section-details{
+    font-size: calc(2.5vw + 5px);
+  }
+
+  .btn{
+    padding: 2vw;
+    width: 100%;
+  }
+
+  .btn h3{
+    font-size: calc(2vw + 10px);
+  }
+
+  .btn p{
+    font-size: calc(2vw + 5px);
+  }
+
+  .terms{
+    font-size: 1.5vw;
+  }
+
+  .calendly-wrapper{
+    height: 90vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 800px){
+
+  .section{
+    height: 100vh;
+  }
+
+  .section-left{ 
+    grid-column: 1 / 7;
+    height: 100%;
+  }
+
+  .section-right{
+    grid-column: 7 / -1;
+    height: 100%;
+  }
+
+  .grid{
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .logo-text{
+    font-size: calc(1.5vw + 10px);
+  }
+
+  .text-heading{
+    font-size: calc(1.75vw + 5px);
+  }
+
+  .section-details{
+    font-size: calc(1.2vw + 5px);
+  }
+
+  .btn{
+    padding: 1vw;
+    width: 80%;
+  }
+
+  .btn p{
+    font-size: 1vw;
+  }
+
+  .terms{
+    font-size: 1vw;
+  }
+
+  .calendly-wrapper{
+    height: 100%;
+    width: 90%;
+  }
+}
+
+/* <--Media Queries End--> */
