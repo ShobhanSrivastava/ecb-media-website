@@ -14,7 +14,7 @@ export default function Section1() {
                     <div className={`text-heading ${styles.textHeadingLine2}`}>We help <span style={{textTransform : "uppercase", color : "white"}}>healthcare & wellness</span> businesses </div>
                     <div className={`text-heading ${styles.textHeadingLine2}`}>ferociously scale to multiple 6-7 figures through scientific Advertising.</div>
                     <br />
-                    <div className={`section-details`}>Stop wasting time and money on faulty and ineffective ad campaigns.<br /><br />It’s time to make your ad-budget count,<br /> scale your business and blow
+                    <div className={`section-details`}>Stop wasting your time and money on faulty and ineffective ad campaigns.<br /><br />It’s time to make your ad-budget count,<br /> scale your business and blow
                     up your sales.
                     </div>
                     <br />
