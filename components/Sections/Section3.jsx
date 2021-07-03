@@ -1,7 +1,6 @@
 import styles from '../../styles/components/Sections/Section3.module.css'
 
 import Button from '../Button';
-import Cross from '../Icons/Cross'
 
 export default function Section3(){
 
@@ -19,11 +18,11 @@ export default function Section3(){
                 </div>
                 <div className={`section-right flex-column flex-centered`}>
                     <ul className={`section-details`} style={{listStyle : "none"}}>
-                        <li><span style={{color : "red"}} className="material-icons-outlined">clear</span>Web Design</li>
-                        <li><Cross />SEO</li>
-                        <li><Cross />Social Media Handling</li>
-                        <li><Cross />Content Creation</li>
-                        <li><Cross />Email Marketing</li>
+                        <li><span style={{color : "red", fontWeight : 400}} className="material-icons">clear</span>Web Design</li>
+                        <li><span style={{color : "red", fontWeight : 400}} className="material-icons">clear</span>SEO</li>
+                        <li><span style={{color : "red", fontWeight : 400}} className="material-icons">clear</span>Social Media Handling</li>
+                        <li><span style={{color : "red", fontWeight : 400}} className="material-icons">clear</span>Content Creation</li>
+                        <li><span style={{color : "red", fontWeight : 400}} className="material-icons">clear</span>Email Marketing</li>
                     </ul>
                 </div>
             </div>
