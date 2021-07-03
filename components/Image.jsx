@@ -1,9 +1,10 @@
 import styles from '../styles/components/Image.module.css'
+import Image from 'next/image'
 
 export default function Image(props) {
 
     return (
-        <img className={styles.image} src={props.src} alt={props.alt} />
+        <Image className={styles.image} src={props.src} alt={props.alt} />
     );
     
 }

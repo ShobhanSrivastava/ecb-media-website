@@ -11,7 +11,7 @@ export default function Section5(){
                     <h1 className={`text-heading ${styles.heading}`}>This is your defining moment!</h1><br />
                     <p className={`section-details ${styles.details}`}>We are a Zero Loss Agency and we guarantee to give 20% profit minimum on Ad Spends or <br />
                     we return you the Service Fee. So, what do you lose?</p><br /><br />
-                    <div className={`section-details`} style={{color : "white"}}>Click the button below and let's get started!</div>
+                    <div className={`section-details`} style={{color : "white"}}>Click the button below and let&#39;s get started!</div>
                     <div className={`button-wrapper-section-5`}><Button /></div>
                 </div>
             </div>
