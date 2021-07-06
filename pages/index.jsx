@@ -11,6 +11,7 @@ export default function Home() {
   return (
     <div className={`pageWrapper`}>
       <Head>
+        <title>ECB Media</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet" />
