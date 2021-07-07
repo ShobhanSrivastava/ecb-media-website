@@ -1,4 +1,10 @@
 import Head from 'next/head';
+import Pixel from '../components/Pixel'
+
+export default () => 
+  <div>
+    <Pixel name='FACEBOOK_PIXEL_1' />
+  </div>
 
 import Section1 from '../components/Sections/Section1';
 import Section2 from '../components/Sections/Section2';
