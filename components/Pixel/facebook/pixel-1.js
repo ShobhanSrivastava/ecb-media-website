@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default () => 
+export default function PixelHelper(){
+  return (
   <React.Fragment>
     <script dangerouslySetInnerHTML={{ __html: `!function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -17,3 +18,5 @@ export default () =>
         src="https://www.facebook.com/tr?id=232761565156272&ev=PageView&noscript=1"/>` }}
     />
   </React.Fragment>
+  );
+}
