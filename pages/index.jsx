@@ -1,11 +1,6 @@
 import Head from 'next/head';
 import Pixel from '../components/Pixel'
 
-export default () => 
-  <div>
-    <Pixel name='FACEBOOK_PIXEL_1' />
-  </div>
-
 import Section1 from '../components/Sections/Section1';
 import Section2 from '../components/Sections/Section2';
 import Section3 from '../components/Sections/Section3';
@@ -25,6 +20,9 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         {/* <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"></link> */}
       </Head>
+      <div>
+        <Pixel name='FACEBOOK_PIXEL_1' />
+      </div>
       <Section1 />
       {/* <hr /> */}
       <Section2 />
